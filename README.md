@@ -5,10 +5,10 @@ This project is a modular Python quiz application with a graphical interface bui
 
 ## Project Structure
 
-- `quiz_mod.py`: Contains the `Quiz` class for managing questions and scoring.
-- `questions.py`: Stores the quiz questions and answers in a list.
-- `quiz_interface.py`: Implements the Tkinter graphical interface (`QuizApp` class).
-- `quiz_app_mod.py`: Launches the quiz application.
+- `quiz_logic.py`: Contains the `Quiz` class for managing questions and scoring.
+- `quiz_questions.py`: Stores the quiz questions and answers in a list.
+- `quiz_gui.py`: Implements the Tkinter graphical interface (`QuizApp` class).
+- `run_quiz.py`: Launches the quiz application.
 
 ## Requirements
 
@@ -32,19 +32,20 @@ This project is a modular Python quiz application with a graphical interface bui
 	cd l6-ifcs-formative-python-quiz
 	```
 
+
 4. In the same terminal window, run the following command:
 
 	```bash
-	python quiz_app_mod.py
+	python run_quiz.py
 	```
 
 5. The graphical quiz window will appear. Answer each question and your score will be displayed at the end.
 
 ## Customizing Questions
 
-To add or change questions, edit the `quiz_questions` list in `questions.py`.
+To add or change questions, edit the `quiz_questions` list in `quiz_questions.py`.
 
 ## Notes
 
 - All quiz logic is separated from the interface for easy maintenance and extension.
-- You can further extend the app by adding new features or changing the interface in `quiz_interface.py`.
+- You can further extend the app by adding new features or changing the interface in `quiz_gui.py`.

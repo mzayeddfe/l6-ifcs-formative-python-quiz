@@ -1,8 +1,8 @@
 
 # This file contains the Tkinter interface for the quiz app
 import tkinter as tk
-from quiz_mod import Quiz
-from questions import quiz_questions
+from quiz_logic import Quiz
+from quiz_questions import quiz_questions
 
 class QuizApp:
 	def __init__(self, master):
@@ -43,3 +43,6 @@ class QuizApp:
 			self.result_label.config(text=f"Wrong! Correct: {correct}")
 		self.current_question += 1
 		self.master.after(1000, self.next_question)
+
+
+
