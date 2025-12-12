@@ -21,7 +21,7 @@ This project is a modular Python quiz application with a graphical interface bui
 1. Clone this repository to your computer:
 
 	```bash
-	git clone https://github.com/<your-username>/l6-ifcs-formative-python-quiz.git
+	git clone https://github.com/mzayeddfe/l6-ifcs-formative-python-quiz.git
 	```
 
 
